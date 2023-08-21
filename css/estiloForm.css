@@ -1,0 +1,63 @@
+.contacto{
+    background-color: #ffffff;
+    color: #228b14;
+    padding: 50px 0;
+}
+.contacto .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.contacto h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.contacto .fila{
+   display: flex; 
+}
+.contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    margin: auto;
+}
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    color: black;
+    font-size: 18px;
+}
+.contacto button{
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #228b14;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: black;
+    position: relative;
+    z-index: 10;
+}
+.contacto button .overlay{
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #228b1488;
+    z-index: -1;
+    transition: 1s;
+}
+.contacto button:hover .overlay{
+    width: 100%;
+
+}
